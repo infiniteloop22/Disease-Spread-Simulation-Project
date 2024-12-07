@@ -1,0 +1,12 @@
+﻿{
+  "MeanPopulationSize": 100,
+  "StandardDeviationPopulationSize": 10,
+  "DiseaseSpreadChance": 0.5,
+  "ChanceOfDeath": 0.01,
+  "DiseaseDurationInHours": 12,
+  "QuarantineDurationInHours": 6,
+  "MeanQuarantineChance": 0.5,
+  "StandardDeviationQuarantineChance": 0.1,
+  "SimulationDurationInHours": 48,
+  "TravelChance": 0.05
+}
