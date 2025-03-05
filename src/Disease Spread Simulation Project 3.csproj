@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<StartupObject>Disease Spread Simulation Project 3.Program</StartupObject>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Configuration\Configuration.cs" />
+		<Compile Include="Location\Location.cs" />
+		<Compile Include="Person\Person.cs" />
+		<Compile Include="Simulation\Simulation.cs" />
+		<Compile Include="Program.cs" />
+	</ItemGroup>
+
+</Project>
